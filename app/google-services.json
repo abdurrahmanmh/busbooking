@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "854638746595",
+    "firebase_url": "https://umpbus1-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "umpbus1",
+    "storage_bucket": "umpbus1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854638746595:android:eb503f9b234f7a82021ed6",
+        "android_client_info": {
+          "package_name": "com.example.umpbus1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854638746595-t1ihpofojbig9i0rnjf39bbqd13bos1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk2Hn42UX8ZiwgQhXZVYBuO962k_bwA2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854638746595-t1ihpofojbig9i0rnjf39bbqd13bos1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
