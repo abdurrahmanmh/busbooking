@@ -28,7 +28,7 @@ public class Booking extends AppCompatActivity {
         setContentView(R.layout.activity_booking);
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference busScheduleRef = database.getReference("Bus Schedule");
-
+        setTitle("Booking");
 
         calendarView = (CalendarView) findViewById(R.id.calendarView);
         dateEditText = (EditText) findViewById(R.id.dateEditText);
