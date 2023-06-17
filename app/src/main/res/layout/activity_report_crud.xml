@@ -43,10 +43,6 @@
             android:textColor="#D32F2F"
             android:text="Delete" />
 
-        <Button
-            android:id="@+id/historyB"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="History" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

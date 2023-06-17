@@ -34,6 +34,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Go to Booking" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Bus Information:"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MONDAY 15/5/2023"
+            android:textColor="#DF1C1C"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7:15 : Bus delayed to 8 am"
+            android:textColor="#3858F8"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="14:30 : Bus pick up from FKOM only"
+            android:textColor="#3858F8"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18.30 : First stop change to FKEE"
+            android:textColor="#3858F8"
+            android:textSize="20dp" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

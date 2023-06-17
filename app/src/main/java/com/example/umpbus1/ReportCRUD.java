@@ -24,28 +24,8 @@ public class ReportCRUD extends AppCompatActivity {
         //String newReport;
         etReportID = (EditText) findViewById(R.id.reportID);
         reportUpdate=(Button) findViewById(R.id.updateB);
-        reportView=(Button) findViewById(R.id.historyB);
         deleteReport=(Button) findViewById(R.id.DeleteB);
 
-        reportView.setOnClickListener(view -> {
-
-
-            Cursor res = DB.getdata();
-            if(res.getCount()==0){
-                Toast.makeText(ReportCRUD.this, "No Entry Exist", Toast.LENGTH_SHORT).show();
-            }
-            StringBuffer buffer = new StringBuffer();
-            while (res.moveToNext()){
-                buffer.append("ID: "+res.getString(0)+"\n");
-                buffer.append("Report: "+res.getString(1)+"\n");
-            }
-
-            AlertDialog.Builder builder = new AlertDialog.Builder(ReportCRUD.this);
-            builder.setCancelable(true);
-            builder.setTitle("Report History");
-            builder.setMessage(buffer.toString());
-            builder.show();
-        });
         reportUpdate.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
