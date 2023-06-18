@@ -28,7 +28,7 @@ public class Contact extends AppCompatActivity  {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW , Uri.parse("geo: 3.545504125084981, 103.42519268066603"));
+                Intent intent = new Intent(Intent.ACTION_VIEW , Uri.parse("geo: 3.5457378768421464, 103.4241464108427"));
                 startActivity(intent);
             }
         } );
@@ -44,9 +44,7 @@ public class Contact extends AppCompatActivity  {
             intent.setData(Uri.parse("mailto:")); // only email apps should handle this
             intent.putExtra(Intent.EXTRA_EMAIL, "security@ump.edu.my");
             intent.putExtra(Intent.EXTRA_SUBJECT, "Asking for information");
-            if (intent.resolveActivity(getPackageManager()) != null) {
-                startActivity(intent);
-            }
+            startActivity(intent);
         });
 
 

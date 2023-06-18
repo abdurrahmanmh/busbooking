@@ -106,10 +106,10 @@ public class ReportCRUD extends AppCompatActivity {
                 else
                     Toast.makeText(ReportCRUD.this, "new entry not deleted", Toast.LENGTH_SHORT).show();
             }
-        });
+       });
 
 
 
 
-    }
+}
 }
